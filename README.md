@@ -1,1 +1,1 @@
-The first step of development HTML,CSS,BOTSTRAP is importent.
+The first step in the development of HTML, CSS, and Bootstrap is important.
