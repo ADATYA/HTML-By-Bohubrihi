@@ -7,23 +7,25 @@
 </head>
 <body>
     <h1 id="empty"></h1>
-    <button type="button" onclick="myLocatation()">Get Locatation</button>
+    <button type="button" onclick="mylocation()">Get Location</button>
 
 
     <script>
-        var v1=document.getElementById("empty");
+        var variable=document.getElementById("empty");
 
-        function myLocatation(){
+        function mylocation(){
             if(navigator.geolocation){
-                navigator.geolocation.getCurrentPosition(showlocatation);
-            }
-        }
-
+             navigator.geolocation.getCurrentPosition(showlocatation);
+    }
+}
         function showlocatation(position){
-            v1.innerHTML="long :"+position.coords.longitude;
-        }
-
+        variable.innerHTML="long : " +position.coords.longitude;
+}
 
     </script>
+
+
+
 </body>
 </html>
+
